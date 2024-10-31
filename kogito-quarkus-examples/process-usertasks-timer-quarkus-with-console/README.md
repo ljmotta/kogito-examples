@@ -18,7 +18,6 @@ The required *Kogito and Infrastructure Services* for this example are:
 - Kogito Data Index
 - Kogito Jobs Service 
 - Kogito Management Console
-- Kogito Task Console
 - Keycloak
 
 ## Running the Quickstart
@@ -79,7 +78,6 @@ Once all services bootstrap, the following ports will be assigned on your local 
 - Data Index: 8180
 - Jobs Service: 8580
 - Management Console: 8280
-- Task Console: 8380
 - Keycloak: 8480
 - PgAdmin: 8055
 
@@ -167,7 +165,6 @@ Once all services bootstrap, the following ports will be assigned on your local 
 - Data Index: 8180
 - Jobs Service: 8580
 - Management Console: 8280
-- Task Console: 8380
 - Keycloak: 8480
 
 > **_NOTE:_**  This step requires the project to be compiled, please consider running a ```mvn clean install -Pinfinispan``` command on the project root before running the ```startServices.sh infinispan``` script for the first time or any time you modify the project.
@@ -307,8 +304,6 @@ To access the Kogito Task Console just open your browser and navigate to ``http:
 </p>
 
 Once there, log in using any of the users specified in the [Using Keycloak as Authentication Server](#using-keycloak-as-authentication-server) 
-
-> **_NOTE:_**  For more information about how to work with Kogito Task Console, please refer to the [Kogito Documentation](https://docs.jboss.org/kogito/release/latest/html_single/#con-task-console_kogito-developing-process-services) page.
 
 Access to Task Console again and verify IT Interview is available  
 <p align="center">
